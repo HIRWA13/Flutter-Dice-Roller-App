@@ -12,7 +12,7 @@ void main() {
           )
         ),
         child: const Center(
-          child: Text('Welcome to dicey'),
+          child: Text('Welcome to dicey', style: TextStyle(color: Colors.white, fontSize: 28),),
         ),
       ), 
     ),
