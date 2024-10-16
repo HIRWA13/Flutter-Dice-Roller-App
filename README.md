@@ -19,3 +19,24 @@ A deep dive of flutter with it's features
 
 ->  This is a widget that helps us set up good looking screen layouts in our app when using the `MaterialApp Widget`
 -> it contains widgets that we can use to build and customize to get our desired UI.
+
+## Types in Dart and Flutter: 
+
+Why do we need types in Flutter?
+
+-> Dart is a type-safe language
+-> The type feature exists in dart so that we won't work with wrong types in the wrong  place
+
+### Most used  types in dart: 
+
+- int -> for integer numbers, numbers without decimal places, eg: 29, -15
+
+- double -> for fractional numbers, numbers with decimal places, eg: 3.91, -12.81
+
+- num -> integer or fractional numbers,  numbers with or without decimal places, 15, 15.01, -2.82
+
+- String -> Text, Text, wrapped with single or double quotes, 'Hello world'
+
+- bool   -> Boolean values, true or  false, [true or false]
+
+- Object -> Any kind of object, the base type of all values. 'Hi', 29, false
