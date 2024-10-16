@@ -53,3 +53,19 @@ Why do we need types in Flutter?
 -> Generics are `Flexible types` that `work together` with other types.
 
 eg: [List<Color>]-> this says that we wan a list of color objects.
+
+
+## Understanding Classes
+
+-> Dart is an Object Oriented Programming language and in Dart, every value is an `object` either primitive values (texts, numbers, etc) or complex  values such as Widgets, gradient config  objects, etc all are objects
+
+-> So classes are in the end `blue prints of objects`
+
+-> Objects are Data structures when stored in memory: 
+    - They contain data (variables or properties)
+    - Functions or methods
+
+-> So we can say in the  end  Objects helps with organizing data and separating logic
+
+So we can say that, Objects  are constructed from classes.
+-> an Object  is created by calling the  `Constructor function` of a class.
