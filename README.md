@@ -40,3 +40,16 @@ Why do we need types in Flutter?
 - bool   -> Boolean values, true or  false, [true or false]
 
 - Object -> Any kind of object, the base type of all values. 'Hi', 29, false
+
+## Lists and Generics in Dart
+
+### Lists
+
+-> in dart, Lists are defined as collections of multiple values
+ eg: ['blue', 'red', 'green'] -> List contents are always wrapped in square brackets
+
+### Generics: 
+
+-> Generics are `Flexible types` that `work together` with other types.
+
+eg: [List<Color>]-> this says that we wan a list of color objects.

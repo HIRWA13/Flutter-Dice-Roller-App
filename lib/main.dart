@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     home: Scaffold(
-      body: Center(
-        child: Text('Welcome to dicey'),
-      ),
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [ Color.fromARGB(255, 55, 2, 146),  Color.fromARGB(255, 118, 90, 167) ]
+          )
+        ),
+        child: const Center(
+          child: Text('Welcome to dicey'),
+        ),
+      ), 
     ),
   )); // runApp needs one argument so that it understand what to display on the screen. i.e. it needs a widget or a widget tree.
 }
