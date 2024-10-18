@@ -7,10 +7,22 @@ import 'package:flutter_mind/gradient_container.dart';
 // where do we find  it then, it is found int he flutter package which is located in the `pubspec.yaml` file, in the material.dart module
 // we tell dart to get the package by importing it on the top of the file.
 void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: GradientContainer(),
-    ),
-  )); // runApp needs one argument so that it understand what to display on the screen. i.e. it needs a widget or a widget tree.
+  runApp(
+      const MyApp()); // runApp needs one argument so that it understand what to display on the screen. i.e. it needs a widget or a widget tree.
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(context) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: GradientContainer([
+          Color.fromARGB(255, 26, 10, 46),
+          Color.fromARGB(255, 115, 79, 152)
+        ]),
+      ),
+    );
+  }
+}

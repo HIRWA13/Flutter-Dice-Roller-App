@@ -69,3 +69,22 @@ eg: [List<Color>]-> this says that we wan a list of color objects.
 
 So we can say that, Objects  are constructed from classes.
 -> an Object  is created by calling the  `Constructor function` of a class.
+
+## Variables
+
+-> Variables are actually data containers
+-> In dart variables can be declared using var, final and const
+
+### Nullable variables: 
+
+-> Dart will throw an error when it notices a variable that is or will be null so to avoid that we need to add a question mark in front of the variable's type
+
+```dart
+String newVariable; // the variable that has been declared and has nothing in it, by default dart will assign it `null` and will thrown an error
+
+// to fix that: 
+
+String? theVariable // this tells dart that this will contains a string or null -> hence allowing dart to accept null value on the variable
+```
+
+### final and const declared variables: 
