@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(context) {
     return const MaterialApp(
       home: Scaffold(
-        body: GradientContainer([
-          Color.fromARGB(255, 26, 10, 46),
+        body: GradientContainer(gradientColors: [
+          Color.fromARGB(255, 89, 14, 180),
           Color.fromARGB(255, 115, 79, 152)
         ]),
       ),
