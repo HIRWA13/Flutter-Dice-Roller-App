@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mind/styled_text.dart';
 
 var startAlignment = Alignment.topLeft;
 var endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key,  required this.gradientColors});
+  const GradientContainer({super.key, required this.gradientColors});
 
   final List<Color> gradientColors;
 
@@ -13,8 +12,15 @@ class GradientContainer extends StatelessWidget {
   Widget build(context) {
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(colors: gradientColors, begin: startAlignment, end: endAlignment)),
-      child: const Center(child: StyledText('Dicey')),
+          gradient: LinearGradient(
+              colors: gradientColors,
+              begin: startAlignment,
+              end: endAlignment)),
+      child: Center(
+          child: Image.asset(
+        'assets/images/dice-2.png',
+        width: 300,
+      )),
     );
   }
 }
